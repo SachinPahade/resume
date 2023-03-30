@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  /* background-color: aliceblue; */
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  margin: 0 12% 0 12%;
+}
+
+.resume {
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 70px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  /* border: 2px solid red; */
+  height: 400px;
+  width: 100%;
+}
+
+.detail_detail {
+  overflow: hidden;
+  scroll-behavior: smooth;
+  /* border-right: 2px solid red; */
+  border-left: 2px solid gray;
+  box-shadow: -7px 8px 10px -2px gray;
+}
+
+.detail_heading {
+  padding-left: 20px;
+  line-height: 40px;
+  display: grid;
+  grid-template-columns: 1fr 11fr;
+  padding-right: 100px;
+  /* border-right: 2px solid gray; */
+}
+
+.horisontal_logo {
+  background-color: black;
+  /* color: white; */
+  padding: 0px 10px 0 10px;
+}
+
+.horisontal_logo ul li a i {
+  color: white;
+  /* padding: px 0px; */
+}
+
+.horisontal_logo ul li {
+  padding: 10px 0px;
+  /* border: 2px solid red; */
+  /* background-color: black; */
+}
+.horisontal_logo ul {
+  /* background-color: black; */
+}
+
+.horisontal_heading ul li a :hover {
+  background-color: black;
+  color: white;
+  border-radius: 0px 25px 25px 0;
+  transition: 0.2s all ease;
+}
+.horisontal_heading ul li a h4.active {
+  /* background-color: red; */
+  color: #f14e24;
+}
+
+.horisontal_heading ul li a h4 {
+  margin: 10px 0 10px 0;
+  padding-left: 15px;
+  border-radius: 0px 25px 25px 0px;
+}
+
+.horisontal_heading ul li {
+  padding: 6px 0px;
+}
+
+.horisontal_logo ul li {
+  margin: 10px 0 10px 0;
+  /* color: black; */
+}
+
+.width_hight {
+  height: 400px;
+  padding: 10px 0px 0px 80px;
+}
+
+.width_hight ul {
+}
+
+.width_hight ul li {
+  list-style: disc;
+  font-size: px;
+  color: #f14e24;
+  padding-bottom: 25px;
+}
+
+.programmingSkills ul li {
+  padding: 5px;
+}
+
+.with_year {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.with_year span {
+  color: white;
+  background-color: #f14e24;
+  padding: 5px 30px;
+  border-radius: 20px;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+h3 {
+  color: #f14e24;
+  font-size: 18px;
+  letter-spacing: 1.1px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+p {
+  color: black;
+  font-size: 14px;
+  letter-spacing: 1.1px;
+}
+
+.resume p {
+  letter-spacing: 3px;
+}
